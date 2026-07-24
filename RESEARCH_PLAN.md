@@ -1,5 +1,4 @@
 # BAVCS: Bias-Aware Variant Concordance Score
-### Research plan for a PhD application anchor project
 
 ## The gap (and why it's real, narrow, and unclaimed)
 
