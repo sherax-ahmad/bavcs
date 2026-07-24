@@ -1,0 +1,97 @@
+{
+  "_source": "myvariant.info v1 API, dbNSFP fields, live-fetched 2026-07-18",
+  "_query": "dbnsfp.genename:BRAF AND dbnsfp.hgvsp:p.V600E (returned nearby BRAF missense variants indexed under this gene)",
+  "_note": "This is a real, small, single-gene sample used to validate the BAVCS discordance computation end-to-end. It is NOT a representative or ancestry-stratified dataset -- see RESEARCH_PLAN.md for what real validation requires (dbNSFP genome-wide + gnomAD ancestry-split allele counts + ClinVar, fetched from an environment with open internet access).",
+  "variants": [
+    {
+      "variant_id": "chr7:g.140434518C>G",
+      "hgvsp": "p.Ser727Thr",
+      "gene": "BRAF",
+      "scores": {
+        "REVEL": 0.448, "CADD": 29.9, "MetaRNN": 0.620498, "BayesDel": -0.115781,
+        "ESM-1b": -12.508, "AlphaMissense": 0.9097, "PrimateAI": 0.863491773605,
+        "ClinPred": 0.927263727846254
+      }
+    },
+    {
+      "variant_id": "chr7:g.140434527A>T",
+      "hgvsp": "p.Ile724Asn",
+      "gene": "BRAF",
+      "scores": {
+        "REVEL": 0.77, "CADD": 32.0, "MetaRNN": 0.82495135, "BayesDel": 0.141649,
+        "ESM-1b": -16.454, "AlphaMissense": 0.9956, "PrimateAI": 0.936798334122,
+        "ClinPred": 0.990635812282562
+      }
+    },
+    {
+      "variant_id": "chr7:g.140434530T>C",
+      "hgvsp": "p.Lys723Arg",
+      "gene": "BRAF",
+      "scores": {
+        "REVEL": 0.298, "CADD": 21.2, "MetaRNN": 0.32827002, "BayesDel": -0.147867,
+        "ESM-1b": -8.308, "AlphaMissense": 0.227, "PrimateAI": 0.831475138664,
+        "ClinPred": 0.874220848083496
+      }
+    },
+    {
+      "variant_id": "chr7:g.140434531T>G",
+      "hgvsp": "p.Lys723Gln",
+      "gene": "BRAF",
+      "scores": {
+        "REVEL": 0.472, "CADD": 26.8, "MetaRNN": 0.5795501, "BayesDel": -0.100852,
+        "ESM-1b": -12.74, "AlphaMissense": 0.9266, "PrimateAI": 0.850935220718,
+        "ClinPred": 0.978924870491028
+      }
+    },
+    {
+      "variant_id": "chr7:g.140434548A>T",
+      "hgvsp": "p.Leu717Gln",
+      "gene": "BRAF",
+      "scores": {
+        "REVEL": 0.916, "CADD": 28.7, "MetaRNN": 0.8543984, "BayesDel": 0.478276,
+        "ESM-1b": -15.351, "AlphaMissense": 0.9663, "PrimateAI": 0.896822392941,
+        "ClinPred": 0.994576930999756
+      }
+    },
+    {
+      "variant_id": "chr7:g.140434570T>A",
+      "hgvsp": "p.Ile710Phe",
+      "gene": "BRAF",
+      "scores": {
+        "REVEL": 0.905, "CADD": 26.2, "MetaRNN": 0.8925979, "BayesDel": 0.377528,
+        "ESM-1b": -14.113, "AlphaMissense": 0.9784, "PrimateAI": 0.911959648132,
+        "ClinPred": 0.984362527143164
+      }
+    },
+    {
+      "variant_id": "chr7:g.140494166T>C",
+      "hgvsp": "p.Asp361Gly",
+      "gene": "BRAF",
+      "scores": {
+        "REVEL": 0.498, "CADD": 23.0, "MetaRNN": 0.5363213, "BayesDel": 0.175212,
+        "ESM-1b": -14.767, "AlphaMissense": 0.9864, "PrimateAI": 0.844949603081,
+        "ClinPred": 0.905462086200714, "VEST4": 0.682
+      }
+    },
+    {
+      "variant_id": "chr7:g.140494212A>C",
+      "hgvsp": "p.Phe346Val",
+      "gene": "BRAF",
+      "scores": {
+        "REVEL": 0.307, "CADD": 22.1, "MetaRNN": 0.34067148, "BayesDel": 0.0744479,
+        "ESM-1b": -5.719, "AlphaMissense": 0.1331, "PrimateAI": 0.684408247471,
+        "ClinPred": 0.73894590139389, "VEST4": 0.479
+      }
+    },
+    {
+      "variant_id": "chr7:g.140494233A>T",
+      "hgvsp": "p.Ser339Thr",
+      "gene": "BRAF",
+      "scores": {
+        "REVEL": 0.315, "CADD": 24.9, "MetaRNN": 0.36433786, "BayesDel": -0.0929522,
+        "ESM-1b": -3.916, "AlphaMissense": 0.1488, "PrimateAI": 0.780867516994,
+        "ClinPred": 0.818106591701508, "VEST4": 0.625
+      }
+    }
+  ]
+}

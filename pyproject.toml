@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bavcs"
+version = "0.1.0"
+description = "Bias-Aware Variant Concordance Score: per-variant, per-ancestry flagging of possible ancestry bias in clinical variant effect predictors"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "YOUR NAME HERE", email = "you@example.com" }
+]
+keywords = ["bioinformatics", "genomics", "variant-effect-prediction", "health-equity"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/YOUR-USERNAME/bavcs"
+Repository = "https://github.com/YOUR-USERNAME/bavcs"
+
+[project.optional-dependencies]
+dev = ["pytest", "matplotlib", "requests"]
+
+[tool.setuptools.packages.find]
+include = ["bavcs*"]
+
+[tool.setuptools.package-data]
+bavcs = ["data/*.json"]
