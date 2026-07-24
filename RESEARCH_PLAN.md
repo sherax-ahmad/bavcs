@@ -22,12 +22,8 @@ contribute.
 it into a computable, per-variant, per-patient-ancestry score.** That's
 the gap BAVCS fills.
 
-## What's novel here (be precise about this in any write-up/application)
+## What's novel here
 
-- Not novel: the *existence* of ancestry bias in VEPs (established,
-  multiple papers).
-- Not novel: the *idea* of cross-checking VEP classes (recommended by
-  Pathak et al., not built).
 - **Novel**: a formula that (a) operationalizes that cross-check
   automatically, (b) weights it by a newly-defined per-gene, per-ancestry
   representation-confidence metric R(g,a) — finer-grained than the
