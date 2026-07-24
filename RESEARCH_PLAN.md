@@ -90,29 +90,4 @@ the gap BAVCS fills.
 3. **Negative controls.** Confirm BAVCS does NOT flag variants in
    well-studied genes/ancestries as high-risk.
 
-## Realistic scope and honest framing for a PhD application
 
-- A working algorithm + a validated retrospective analysis on public
-  data (steps 1–2 above) is a legitimate small paper/preprint — achievable
-  in a few months, not the "TCGA-scale platform" tier.
-- The "platform other researchers visit" version — a live queryable web
-  tool — is the natural *next* phase, honestly better pitched in a
-  statement of purpose as "what I want to build during the PhD," backed
-  by this working prototype and preliminary real-data validation.
-- Strongest possible next move: bring this formulation to someone at
-  Algomics, or to the Marsh lab (Edinburgh) / Ngeow lab (NTU) directly —
-  a short, respectful email describing BAVCS and asking whether it's a
-  fair extension of their published recommendation is a realistic way to
-  get expert feedback, and possibly a collaborator, before investing
-  months in it solo.
-
-## Immediate next steps
-
-1. Download the source paper's supplementary dataset (`osf.io/wz2sb`) and
-   run BAVCS against it — validates the method on real published data
-   without needing your own bulk VEP pipeline yet.
-2. If that holds up, run `bavcs/myvariant_client.py` from a machine with
-   real internet access on a small gene panel (10-20 genes), then pull
-   matching gnomAD + ClinVar data to compute real R(g,a) values.
-3. Draft a one-paragraph description of BAVCS to send to the source
-   paper's authors or to Algomics contacts for a sanity check.
